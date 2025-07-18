@@ -46,7 +46,7 @@ video {
 .login-form h1 {
   margin-bottom: 20px;
   font-size: 2em;
-  text-shadow: 0 0 10px cyan;
+  text-shadow: 0 0 10px rgb(126, 230, 230);
 }
 
 .login-form input {
@@ -65,16 +65,20 @@ video {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background: cyan;
-  color: #000;
+  background: rgb(117, 247, 247);
+  color: #161616;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
 }
-
+.links-form {
+  display: flex;
+  justify-content: space-between;
+}
 .login-form button:hover {
-  background: #00ffff;
+  background: #62fefe;
 }
 input::placeholder {
-  color: #f1eef1;
+  color: #ece8ec;
 }
