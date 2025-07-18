@@ -72,11 +72,9 @@ video {
   transition: 0.3s;
   border-bottom: 5px solid rgba(0, 0, 0, 0.5);
 }
-.links-form {
-  display: flex;
-  justify-content: space-between;
-}
+
 .login-form button:hover {
+  transform: translateY(-2px);
   background: #62fefe;
 }
 input::placeholder {
